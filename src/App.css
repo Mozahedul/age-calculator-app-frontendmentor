@@ -85,7 +85,43 @@ body {
 .error-msg {
   color: var(--color-light-red);
   font-size: 10px;
+  font-weight: var(--font-semibold);
+  margin-top: 5px;
+  letter-spacing: 0.04em;
+}
+
+.time-btn {
+  outline: none;
+  border: none;
+  padding: 4px;
+  width: 60px;
+  font-size: 24px;
+  font-weight: var(--font-bold);
+  color: var(--color-off-black);
+  background-color: var(--color-light-gray);
+  border-radius: 4px;
+}
+
+.time-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0;
+}
+
+.time-col strong {
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
   margin-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (min-width: 768px) {
